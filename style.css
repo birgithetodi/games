@@ -56,10 +56,11 @@ body {
     gap: 0.6em;
 }
 #letter-container button {
-    height: 2.4em;
-    width: 2.4em;
+    height: 2.8em;
+    width: 2.8em;
     border-radius: 0.3em;
-    background-color: white;
+    border: 0.3em solid rgb(255, 164, 179);
+    background-color: pink;
     cursor: pointer;
 }
 .new-game-popup {
@@ -125,4 +126,123 @@ canvas {
 h3{
     color: rgb(245, 162, 175);
     font-style: italic;
+}
+
+.post {
+    width: 5px;
+    height: 200px;
+    background-color: rgb(255, 164, 179);
+    position: absolute;
+    left: 90px;
+    top: 180px;
+}
+
+ .beam {
+    width: 130px;
+    height: 5px;
+    background-color: rgb(255, 164, 179);
+    position: absolute;
+    left: 91px;
+    top: 180px;
+ }
+
+.rope {
+    width: 5px;
+    height: 30px;
+    background-color: rgb(255, 164, 179);
+    position: absolute;
+    top: 180px;
+    left: 176px;
+}
+
+.head {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 164, 179);
+    position: absolute;
+    top: 210px;
+    left: 159px;
+    border-radius: 1000px;
+}
+
+.body {
+    width: 5px;
+    height: 70px;
+    background-color: rgb(255, 164, 179);
+    position: absolute;
+    top: 250px;
+    left: 175px;
+}
+
+.left-arm {
+    width: 45px;
+    height: 5px;
+    background-color: rgb(255, 164, 179);
+    position: absolute;
+    top: 250px;
+    left: 130px;
+    transform: rotate(-45deg);
+    transform-origin: right;
+}
+
+.right-arm {
+    width: 45px;
+    height: 5px;
+    background-color: rgb(255, 164, 179);
+    position: absolute;
+    top: 250px;
+    left: 180px;
+    transform: rotate(45deg);
+    transform-origin: left;
+}
+
+.left-leg {
+    width: 40px;
+    height: 5px;
+    background-color: rgb(255, 164, 179);
+    position: absolute;
+    top: 318px;
+    left: 137px;
+    transform: rotate(-45deg);
+    transform-origin: right;
+}
+
+.right-leg {
+    width: 40px;
+    height: 5px;
+    background-color: rgb(255, 164, 179);
+    position: absolute;
+    top: 318px;
+    left: 180px;
+    transform: rotate(45deg);
+    transform-origin: left;
+}
+
+.hangman-container {
+    width: 450px;
+    height: 280px;
+    background-color: rgb(255, 237, 240);
+    border: 5px solid rgb(255, 164, 179);
+}
+
+.ground1 {
+    width: 25px;
+    height: 5px;
+    background-color: rgb(255, 164, 179);
+    position: absolute;
+    top: 370px;
+    left: 90px;
+    transform: rotate(45deg);
+    transform-origin: left;
+}
+
+.ground2 {
+    width: 25px;
+    height: 5px;
+    background-color: rgb(255, 164, 179);
+    position: absolute;
+    top: 370px;
+    left: 70px;
+    transform: rotate(-45deg);
+    transform-origin: right;
 }

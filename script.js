@@ -12,5 +12,6 @@ function onButtonClick() {
     let element = document.querySelector('#choose-category');
     element.classList.remove('hidden');
 }
-const button = document.querySelector('button');
+const button = document.querySelector('#new-game-button');
 button.addEventListener('click', onButtonClick);
+
