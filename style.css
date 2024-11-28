@@ -7,12 +7,12 @@
 body {
     background-color: pink;
 }
-.container {
+.container1 {
     font-size: 20px;
     background-color: rgb(255, 237, 240);
     width: 90vw;
     max-width: 34em;
-    position: absolute;
+    position: fixed;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
@@ -132,7 +132,7 @@ h3{
     width: 5px;
     height: 200px;
     background-color: rgb(255, 164, 179);
-    position: absolute;
+    position: fixed;
     left: 90px;
     top: 180px;
 }
@@ -141,7 +141,7 @@ h3{
     width: 130px;
     height: 5px;
     background-color: rgb(255, 164, 179);
-    position: absolute;
+    position: fixed;
     left: 91px;
     top: 180px;
  }
@@ -150,7 +150,7 @@ h3{
     width: 5px;
     height: 30px;
     background-color: rgb(255, 164, 179);
-    position: absolute;
+    position: fixed;
     top: 180px;
     left: 176px;
 }
@@ -159,7 +159,7 @@ h3{
     width: 40px;
     height: 40px;
     background-color: rgb(255, 164, 179);
-    position: absolute;
+    position: fixed;
     top: 210px;
     left: 159px;
     border-radius: 1000px;
@@ -169,7 +169,7 @@ h3{
     width: 5px;
     height: 70px;
     background-color: rgb(255, 164, 179);
-    position: absolute;
+    position: fixed;
     top: 250px;
     left: 175px;
 }
@@ -178,7 +178,7 @@ h3{
     width: 45px;
     height: 5px;
     background-color: rgb(255, 164, 179);
-    position: absolute;
+    position: fixed;
     top: 250px;
     left: 130px;
     transform: rotate(-45deg);
@@ -189,7 +189,7 @@ h3{
     width: 45px;
     height: 5px;
     background-color: rgb(255, 164, 179);
-    position: absolute;
+    position: fixed;
     top: 250px;
     left: 180px;
     transform: rotate(45deg);
@@ -200,7 +200,7 @@ h3{
     width: 40px;
     height: 5px;
     background-color: rgb(255, 164, 179);
-    position: absolute;
+    position: fixed;
     top: 318px;
     left: 137px;
     transform: rotate(-45deg);
@@ -211,7 +211,7 @@ h3{
     width: 40px;
     height: 5px;
     background-color: rgb(255, 164, 179);
-    position: absolute;
+    position: fixed;
     top: 318px;
     left: 180px;
     transform: rotate(45deg);
@@ -220,7 +220,7 @@ h3{
 
 .hangman-container {
     width: 450px;
-    height: 280px;
+    height: 250px;
     background-color: rgb(255, 237, 240);
     border: 5px solid rgb(255, 164, 179);
 }
