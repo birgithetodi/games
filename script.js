@@ -25,8 +25,24 @@ function onButtonClick() {
             console.log("chosenWord", chosenWord)
 
             const wordContainer = document.querySelector("#guess-word-container");
-            wordContainer.innerHTML = chosenWord;
-           
+            const letters = chosenWord.split('');
+
+            letters.forEach(letter => {
+                const letterDiv = document.createElement('div');
+                letterDiv.textContent = letter;
+                wordContainer.appendChild(letterDiv);
+
+                function onCategorySelected() {
+                    const categoryEl = document.querySelector("#choose-category");
+                    const newGameButton = document.querySelector("#new-game-button");
+
+                    categoryEl.classList.add("hidden");
+                    newGameButton.classList.add("hidden");
+                    console.log("category choosed. Hide eelements.")
+                }
+                document.querySelector("select").addEventListener("change", onCategorySelected);
+            })
+
         }
     });
 }
@@ -36,3 +52,5 @@ button.addEventListener('click', onButtonClick);
 
 //id määrates on #
 //classi määrates on .
+
+"chosenWord".split('');
